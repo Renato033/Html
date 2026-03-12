@@ -2,5 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;/*espaçamento ente os itens*/
+
+    & .perfil {¨
+ }
+
+    & .btns {
+       gap: 1px;
+      
+       & a{
+       background-color: blueviolet;
+       padding:20px;
+       border-radius: 100px;
+       color: beige;
+       text-align:center;
+       front: size 24px;
+       border: 1 px solid black;
+       }
+     & a:hover {
+        transform: translateX(4px);
+        box-shadow:none;
+
+     }
+
+    }
+
+    }
+    
+    & .perfil{
+     display:flex;
+     flex-direction: column;
+     gap: 12px;
+     text-align: center;
+      & img{
+      width: 250px;
+      height: 250;
+      border-radius: 100%;
+      }
+    }
 }
